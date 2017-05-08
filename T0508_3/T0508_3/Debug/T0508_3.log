@@ -1,14 +1,12 @@
-﻿빌드 시작: 2017-05-08 오후 2:11:57
+﻿빌드 시작: 2017-05-08 오후 2:18:36
      1>2 노드의 "D:\Codes\School-2017\T0508_3\T0508_3\T0508_3.vcxproj" 프로젝트(build 대상)입니다.
-     1>PrepareForBuild:
-         "D:\Codes\School-2017\T0508_3\Debug\" 디렉터리를 만들고 있습니다.
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\T0508_3.unsuccessfulbuild"을(를) 만들고 있습니다.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt T0508_3.c
          T0508_3.c
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\T0508_3.exe.embed.manifest.res" Debug\T0508_3_manifest.rc 
+         모든 출력이 최신 상태입니다.
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Codes\School-2017\T0508_3\Debug\T0508_3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\T0508_3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Codes\School-2017\T0508_3\Debug\T0508_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Codes\School-2017\T0508_3\Debug\T0508_3.lib" /MACHINE:X86 Debug\T0508_3.exe.embed.manifest.res
          Debug\T0508_3.obj
@@ -25,4 +23,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:01.82
+경과 시간: 00:00:00.72
