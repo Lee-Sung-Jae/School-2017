@@ -19,6 +19,7 @@ static int scount = 100;
 
 void test(void) {
 	static int scount;
+	//Original Code is `auto int acount = 0;`, but this correct.
 	auto acount = 0;
 	scount++;
 	acount++;
