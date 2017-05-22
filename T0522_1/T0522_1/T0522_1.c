@@ -5,7 +5,7 @@ int main(void) {
 
 	a = b + b && c;
 	printf("a = %d, b = %d, c = %d\n", a, b, c);
-	a = b || c;
+	a = b || !c;
 	printf("a = %d, b = %d, c = %d\n", a, b, c);
 
 	return 0;
