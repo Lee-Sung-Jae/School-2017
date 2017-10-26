@@ -17,9 +17,9 @@ int main (void) {
 	int a, b, c;
 
 	input(data, 100);
-	input(data, 100);
-	input(data, 100);
-	input(data, 100);
+	input(data, 200);
+	input(data, 300);
+	input(data, 400);
 
 	a = output(data);
 	b = output(data);
