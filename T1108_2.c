@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(void) {
-    char buffer[512];
+    char buffer[512] = "";
     FILE *input = fopen("./T1108_2-I.txt", "r"), *output = fopen("./T1108_2-O.txt", "w");
 
     if(input == (FILE *) NULL) {
@@ -12,8 +12,10 @@ int main(void) {
         return 1;
     }
 
-    while(fgets(buffer, 512, input) != EOF)
+    while(fgets(buffer, 512, input) != NULL) // Original code compares with `EOF`, but that makes infinity loop
         fputs(buffer, output);
+
+    printf("파일 내용 복사가 완료 되었습니다.");
 
     fclose(input);
     fclose(output);
